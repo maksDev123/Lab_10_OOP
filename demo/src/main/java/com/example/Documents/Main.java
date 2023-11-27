@@ -13,5 +13,7 @@ public class Main {
             a.parse();
 
             timed_Document.parse();
+
+            cachedDocument.parse();
     }
 }
