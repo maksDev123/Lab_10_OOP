@@ -12,9 +12,9 @@ class CachedDocument extends SmartDocument {
 
     public void parseWithCaching() {
         if (isInCache) {
-            System.out.println("Document found in cache. Skipping parsing.");
         } else {
-            System.out.println("Document not found in cache. Parsing...");
+            System.out.println("Parsing");
+            super.parse();
             isInCache = true;
         }
     }
