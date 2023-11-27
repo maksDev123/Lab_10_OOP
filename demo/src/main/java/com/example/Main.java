@@ -1,4 +1,5 @@
-package demo.src.main.java.com.example;
+package com.example;
+
 
 
 // Implement decorators based on attached diagram. This implementation should follow Decorator Pattern.

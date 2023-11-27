@@ -1,4 +1,4 @@
-package demo.src.main.java.com.example;
+package com.example;
 
 
 interface Flower_1 {
