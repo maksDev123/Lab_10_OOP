@@ -8,7 +8,7 @@ class TimedDocument extends SmartDocument {
     public void parseAndMeasurePerformance() {
         long startTime = System.currentTimeMillis();
 
-        this.parse();
+        super.parse();
 
         long endTime = System.currentTimeMillis();
         long elapsedTime = endTime - startTime;
